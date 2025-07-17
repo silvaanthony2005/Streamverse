@@ -1,0 +1,11 @@
+# Entorno virtual de Python
+venv/
+.env
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# sql/output.sql
