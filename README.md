@@ -24,6 +24,7 @@ Gracias a esta arquitectura, StreamVerse puede ofrecer recomendaciones, mantener
 
 ## Cómo ejecutar el proyecto
 1. Instala las dependencias:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -31,6 +32,7 @@ Gracias a esta arquitectura, StreamVerse puede ofrecer recomendaciones, mantener
 3. Si necesitas restaurar toda la base de datos (estructura y datos), usa el dump `sql/output.sql` con pg_restore o psql.
 4. Configura la cadena de conexión en `app/database.py` con tu usuario y contraseña de PostgreSQL.
 5. Ejecuta el servidor:
+
    ```bash
    uvicorn app.main:app --reload
    ```
