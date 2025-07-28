@@ -23,8 +23,7 @@ def leer_usuario_db(db: Session, usuario_id: int):
     stmt = (
         select(Usuario).  # <-- Api 2.x
         select_from(Usuario).
-        where(Usuario.id == usuario_id).
-        first()
+        where(Usuario.id == usuario_id)
     )
 
     result = (db.execute(stmt)).first()
