@@ -1,3 +1,5 @@
+# Muy bien el gitignore.
+
 # Entorno virtual de Python
 venv/
 .env
